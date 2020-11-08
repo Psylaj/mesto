@@ -1,5 +1,5 @@
 .element__button-like {
-  background-image: url(/images/like.svg);
+  background-image: url(../../../images/like.svg);
   width: 21px;
   height: 21px;
   background-size: contain;
