@@ -1,0 +1,10 @@
+.element__item {
+  border-radius: 10px;
+  width: 282px;
+  height: 361px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  margin: auto;
+}
