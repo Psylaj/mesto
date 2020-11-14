@@ -8,11 +8,11 @@
 @import url(../blocks/profile/__avatar/profile__avatar.css);
 @import url(../blocks/profile/__button/profile__button.css);
 @import url(../blocks/profile/__info/profile__info.css);
-@import url(../blocks/profile/__avatar/__avatar_img/profile__avatar_img.css);
+@import url(../blocks/profile/__avatar/__image/profile__image.css);
 @import url(../blocks/profile/__info/__icon/profile__icon.css);
 @import url(../blocks/profile/__info/__subtitle/profile__subtitle.css);
 @import url(../blocks/profile/__info/__title/profile__title.css);
-@import url(../blocks/profile/__button/_inner/profile__button_inner.css);
+@import url(../blocks/profile/__button/__button-inner/profile__button-inner.css);
 @import url(../blocks/elements/elements.css);
 @import url(../blocks/elements/__item/element__item.css);
 @import url(../blocks/elements/__item/__item_white/element__item_white.css);
