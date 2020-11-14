@@ -8,7 +8,7 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 
- html {
+html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
 }
@@ -346,18 +346,4 @@ template {
 
 [hidden] {
   display: none;
-}
-/*
-Вадим Макеев, который ведет HTML-шорты на you-tube сказал, что при выборе normilize или reset "пляшите от задачи". 
-Я доделываю normilize под нужды своего проекта
-
-Это правило обнуляет браузерные отступы у h1-h4 и з
-*/
-
-h1,
-h2,
-h3,
-h4,
-p {
-  margin: 0px;
 }
