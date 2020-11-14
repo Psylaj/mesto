@@ -1,0 +1,13 @@
+.modal {
+    display: flex;
+    height: 376px;
+    width: 282px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media screen and (min-width: 1280px) {
+    .modal {
+        width: 430px;
+    }
+}
