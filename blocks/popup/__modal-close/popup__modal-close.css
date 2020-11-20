@@ -1,4 +1,4 @@
-.popup__modal_close {
+.popup__modal-close {
     background-image: url("../../../images/Close Icon.svg");
     background-repeat: no-repeat;
     background-size: 120%;
@@ -10,12 +10,12 @@
 }
 
 @media screen and (min-width: 1280px) {
-    .popup__modal_close {
+    .popup__modal-close {
         transform: translateX(40px);
     }
 }
 
-.popup__modal_close:hover {
+.popup__modal-close:hover {
     opacity: 0.6;
     cursor: pointer;
 }

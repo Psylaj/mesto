@@ -1,4 +1,4 @@
-.popup__modal-content_button {
+.popup__modal-content-button {
     width: 100%;
     min-height: 46px;
     background-color: black;
@@ -11,7 +11,7 @@
     border: none;
 }
 
-.popup__modal-content_button:hover {
+.popup__modal-content-button:hover {
     opacity: 0.6;
     cursor: pointer;
 }

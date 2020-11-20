@@ -4,8 +4,8 @@ const FORM_NAME = "#name";
 const FORM_TITLE = "#title";
 const POPUP = ".popup";
 const EDIT_BUTTON = ".profile__edit-button";
-const MODAL_CLOSE = ".popup__modal_close"
-const MODAL_CONTENT_BUTTON = ".popup__modal-content_button"
+const MODAL_CLOSE = ".popup__modal-close";
+const MODAL_CONTENT_BUTTON = ".popup__modal-content-button";
 
 function fillModal () {
     const title = document.querySelector(PROFILE_TITLE).innerText
