@@ -1,0 +1,3 @@
+.popup:not(.popup_opened) {
+    display: none;
+}

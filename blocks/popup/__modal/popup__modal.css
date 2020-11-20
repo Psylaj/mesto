@@ -1,0 +1,14 @@
+.popup__modal {
+    display: flex;
+    min-height: 376px;
+    max-width: 282px;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media screen and (min-width: 1280px) {
+    .popup__modal {
+        max-width: 430px;
+    }
+}

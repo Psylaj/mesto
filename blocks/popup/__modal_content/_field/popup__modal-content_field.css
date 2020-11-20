@@ -1,0 +1,10 @@
+.popup__modal-content_field {
+    border: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    padding-bottom: 13px;
+}

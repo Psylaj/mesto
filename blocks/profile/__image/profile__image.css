@@ -1,0 +1,8 @@
+.profile__image {
+  border-radius: 900px;
+  overflow: hidden;
+  margin: 0 auto;
+  width: 168px;
+  height: 168px;
+  display: block;
+}

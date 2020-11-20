@@ -3,7 +3,7 @@
   grid-template-columns: minmax(282px, 1fr);
   gap: 20px;
   align-items: center;
-  width: 282px;
+  max-width: 282px;
   margin: auto;
 }
 
@@ -11,18 +11,16 @@
   .element {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    width: 100%;
+    max-width: calc(282px * 3 + 40px);
     gap: 20px;
   }
-  
+
 }
 
 @media screen and (min-width: 1280px) {
   .element {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    width: 100%;
-    gap: 20px;
   }
   
 }

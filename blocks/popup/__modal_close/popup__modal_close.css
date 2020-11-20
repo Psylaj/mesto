@@ -1,0 +1,21 @@
+.popup__modal_close {
+    background-image: url("../../../images/Close Icon.svg");
+    background-repeat: no-repeat;
+    background-size: 120%;
+    background-position: left top;
+    align-self: flex-end;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 1280px) {
+    .popup__modal_close {
+        transform: translateX(40px);
+    }
+}
+
+.popup__modal_close:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}

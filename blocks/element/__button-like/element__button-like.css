@@ -9,3 +9,8 @@
   background-position: center;
   margin-left: 25px;
 }
+
+.element__button-like:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}

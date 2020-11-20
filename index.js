@@ -1,7 +1,11 @@
-const PROFILE_NAME = "#profile-name";
-const PROFILE_TITLE = "#profile-title";
+const PROFILE_NAME = ".profile__title";
+const PROFILE_TITLE = ".profile__subtitle";
 const FORM_NAME = "#name";
 const FORM_TITLE = "#title";
+const POPUP = ".popup";
+const EDIT_BUTTON = ".profile__edit-button";
+const MODAL_CLOSE = ".popup__modal_close"
+const MODAL_CONTENT_BUTTON = ".popup__modal-content_button"
 
 function fillModal () {
     const title = document.querySelector(PROFILE_TITLE).innerText
@@ -11,12 +15,12 @@ function fillModal () {
 }
 
 function openModal() {
-    document.querySelector(".overlay-container").classList.add("popup_opened")
+    document.querySelector(POPUP).classList.add("popup_opened")
     fillModal()
 }
 
 function closeModal() {
-    document.querySelector(".overlay-container").classList.remove("popup_opened")
+    document.querySelector(POPUP).classList.remove("popup_opened")
 }
 
 function saveModal() {
@@ -28,9 +32,9 @@ function saveModal() {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-        document.querySelector(".profile__icon").addEventListener("click", openModal)
-        document.querySelector(".modal-close").addEventListener("click", closeModal)
-        document.querySelector(".modal-content__button").addEventListener("click" , saveModal)
+        document.querySelector(EDIT_BUTTON).addEventListener("click", openModal)
+        document.querySelector(MODAL_CLOSE).addEventListener("click", closeModal)
+        document.querySelector(MODAL_CONTENT_BUTTON).addEventListener("click" , saveModal)
     }
 )
 
