@@ -9,7 +9,9 @@
   padding-bottom: 0;
   margin-bottom: 0;
   padding-left: 21px;
-
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 @media screen and (min-width: 768px) {
@@ -22,11 +24,8 @@
   .profile__title {
     text-align: left;
     font-size: 42px;
-    font-style: normal;
-    font-weight: 500;
     line-height: 48px;
     padding-left: 27px;
-    
   }
   
 }
