@@ -11,7 +11,7 @@
 
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   .profile__subtitle {
     text-align: left;
     padding-left: 28px;

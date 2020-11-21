@@ -7,7 +7,7 @@
     justify-content: space-between;
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
     .popup__modal {
         max-width: 430px;
     }

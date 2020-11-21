@@ -11,7 +11,7 @@
   align-self: center;
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   .profile__button-inner {
     width: 150px;
     height: 50px;
